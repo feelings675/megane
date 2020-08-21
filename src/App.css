@@ -27,7 +27,46 @@
 .App-link {
   color: #61dafb;
 }
-
+body, html {
+  min-height: 100%;
+  background-image: url("./BaiTap/glassesImage/background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover ;
+}
+.all{
+  
+}
+.model {
+  position: relative;
+}
+.renderKinh img{
+  position: absolute;
+  top: 16%;
+  left: 30%;
+}
+.meganeDesc{
+  position: absolute;
+  top: 64%;
+  left: 37%;
+  width: 25%;
+  font-size: 20px;
+  background-color: rosybrown;
+}
+.megane{
+  width: 20% !important;
+}
+.model img{
+  width: 30%;
+  margin: 10% 10%;
+}
+.glass{
+  display: inline;
+}
+.glass img{
+  width: 9%;
+  padding:10px 10px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
